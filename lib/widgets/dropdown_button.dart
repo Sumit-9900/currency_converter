@@ -2,13 +2,13 @@ import 'package:currency_converter/services/currency_services.dart';
 import 'package:flutter/material.dart';
 
 class DropDown extends StatefulWidget {
-  DropDown({
+  const DropDown({
     super.key,
     required this.value,
     required this.onPresseddropdown,
   });
 
-  String value;
+  final String value;
   final void Function(Object?) onPresseddropdown;
 
   @override
